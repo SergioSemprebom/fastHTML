@@ -1,4 +1,4 @@
-from fasthtml.common import FastHTML, serve
+from fasthtml.common import FastHTML, serve # type: ignore
 
 app = FastHTML()
 
