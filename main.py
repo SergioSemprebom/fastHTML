@@ -1,7 +1,6 @@
-from fasthtml import FastHTML, serve
+from fasthtml.common import FastHTML, serve
 
 app = FastHTML()
-
 
 @app.get("/")
 def homepage():
